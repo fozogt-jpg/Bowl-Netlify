@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# Allow index.html
+!/index.html
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow VS Code settings
+!.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Allow Git configuration
+!.git/
+!.gitignore
