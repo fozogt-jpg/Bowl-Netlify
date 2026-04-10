@@ -1,9 +1,9 @@
 {
 "companyName": "Alien Invaders io",
 "productName": "Alien Invaders io GD",
-"dataUrl": "https://buttertoasty.github.io/games1/alieninvadersio/AlienInvaders_io_5.data.unityweb",
-"wasmCodeUrl": "https://buttertoasty.github.io/games1/alieninvadersio/AlienInvaders_io_5.wasm.code.unityweb",
-"wasmFrameworkUrl": "https://buttertoasty.github.io/games1/alieninvadersio/AlienInvaders_io_5.wasm.framework.unityweb",
+"dataUrl": "https://https://buttertoasty.netlify.app/games1/alieninvadersio/AlienInvaders_io_5.data.unityweb",
+"wasmCodeUrl": "https://https://buttertoasty.netlify.app/games1/alieninvadersio/AlienInvaders_io_5.wasm.code.unityweb",
+"wasmFrameworkUrl": "https://https://buttertoasty.netlify.app/games1/alieninvadersio/AlienInvaders_io_5.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
