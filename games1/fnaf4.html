@@ -199,7 +199,7 @@
     </details>
   </div>
 
-  <script src="https://https://buttertoasty.netlify.app/games1/games/fnaf4/script.js"></script>
+  <script src="https://https://btgames1.netlify.app/games/fnaf4/script.js"></script>
   <script>
     const appElement = document.getElementById('app');
     const launchScreen = document.getElementById('launch');
@@ -287,7 +287,7 @@
         
         storage.addWebStore(
           [storage.AssetType.ImageVector, storage.AssetType.ImageBitmap, storage.AssetType.Sound],
-          (asset) => new URL('https://https://buttertoasty.netlify.app/games1/games/fnaf4/assets/' + asset.assetId + '.' + asset.dataFormat, location).href
+          (asset) => new URL('https://https://btgames1.netlify.app/games/fnaf4/assets/' + asset.assetId + '.' + asset.dataFormat, location).href
         );
         return () => new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
