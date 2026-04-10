@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      xml-js:
+        specifier: ^1.6.11
+        version: 1.6.11
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.5
@@ -411,6 +415,10 @@ packages:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
 
+  sax@1.6.0:
+    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
+    engines: {node: '>=11.0.0'}
+
   set-cookie-parser@2.7.0:
     resolution: {integrity: sha512-lXLOiqpkUumhRdFF3k1osNXCy9akgx/dyPZ5p8qAg9seJzXr5ZrlqZuWIMuY6ejOsVLE6flJ5/h3lsn57fQ/PQ==}
 
@@ -477,6 +485,10 @@ packages:
     peerDependenciesMeta:
       vite:
         optional: true
+
+  xml-js@1.6.11:
+    resolution: {integrity: sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==}
+    hasBin: true
 
 snapshots:
 
@@ -804,6 +816,8 @@ snapshots:
     dependencies:
       mri: 1.2.0
 
+  sax@1.6.0: {}
+
   set-cookie-parser@2.7.0: {}
 
   sirv@2.0.4:
@@ -853,3 +867,7 @@ snapshots:
   vitefu@0.2.5(vite@5.4.8):
     optionalDependencies:
       vite: 5.4.8
+
+  xml-js@1.6.11:
+    dependencies:
+      sax: 1.6.0
