@@ -14,6 +14,23 @@
 
   gtag('config', 'G-TH10NX61NN');
 </script>
+<script>
+  (function () {
+    var requiredPassword = "adminonly!";
+    var params = new URLSearchParams(window.location.search);
+    var providedPassword = params.get("password");
+
+    if (providedPassword === requiredPassword) {
+      return;
+    }
+
+    var enteredPassword = window.prompt("Enter password to access this page:");
+    if (enteredPassword !== requiredPassword) {
+      document.documentElement.innerHTML = "<head><title>Access Denied</title></head><body style='font-family: Arial, sans-serif; text-align: center; padding: 4rem;'><h1>Access denied</h1><p>Incorrect password.</p></body>";
+      throw new Error("Access denied: Incorrect password.");
+    }
+  })();
+</script>
 <title> ButterToasty's Games </title>
 <link rel="icon" href="https://buttertoasty.netlify.app/favicon.ico"/>
 <meta charset="UTF-8">
